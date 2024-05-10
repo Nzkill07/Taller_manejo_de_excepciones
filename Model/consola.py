@@ -1,4 +1,4 @@
-class Consola:
+class BowlingGame:
     def __init__(self, juego):
         self.juego = juego
 

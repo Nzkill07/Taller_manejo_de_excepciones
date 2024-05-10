@@ -1,9 +1,9 @@
 from bolos import Bolos
-from consola import Consola
+from consola import BowlingGame
 
 
 bolos_game = Bolos()
 
-consola = Consola(bolos_game)
+consola = BowlingGame(bolos_game)
 
 consola.iniciar_juego()
